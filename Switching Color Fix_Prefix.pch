@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Switching Color Fix' target in the 'Switching Color Fix' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

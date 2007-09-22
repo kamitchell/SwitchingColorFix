@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0866070C98EC07007D3101 /* scfhelper in Resources */ = {isa = PBXBuildFile; fileRef = 0A5001030C6F9EF10083F9F4 /* scfhelper */; };
+		0A0866080C98EC0A007D3101 /* SwitchingColorFixApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 0A5002DB0C6FDD040083F9F4 /* SwitchingColorFixApp.app */; };
+		0A5001130C6F9F250083F9F4 /* scfhelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5001120C6F9F250083F9F4 /* scfhelper.m */; };
+		0A5001390C6F9FF70083F9F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		0A5001490C6FA4FD0083F9F4 /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50FFB30C6F7FF20083F9F4 /* LoginItems.m */; };
+		0A5002150C6FC9D10083F9F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5002140C6FC9D10083F9F4 /* Security.framework */; };
+		0A50030F0C6FDDAC0083F9F4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5003090C6FDDAC0083F9F4 /* MainMenu.nib */; };
+		0A5003130C6FDE150083F9F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		0A50031A0C6FDE380083F9F4 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5003180C6FDE380083F9F4 /* AppController.m */; };
+		0A50031C0C6FDE3F0083F9F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50031B0C6FDE3F0083F9F4 /* main.m */; };
+		0A50046A0C7001A70083F9F4 /* About.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5004690C7001A70083F9F4 /* About.rtf */; };
+		0A50FFB50C6F7FF20083F9F4 /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50FFB30C6F7FF20083F9F4 /* LoginItems.m */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEE0486D31800D8A456 /* Switching_Color_FixPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F506C040013D9D8001CA16C8 /* Switching_Color_FixPref.tiff */; };
+		8D202CEF0486D31800D8A456 /* Switching_Color_FixPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* Switching_Color_FixPref.nib */; };
+		8D202CF10486D31800D8A456 /* Switching_Color_FixPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* Switching_Color_FixPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5003360C6FDEEE0083F9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5001020C6F9EF10083F9F4;
+			remoteInfo = scfhelper;
+		};
+		0A5003380C6FDEEE0083F9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5002DA0C6FDD040083F9F4;
+			remoteInfo = SwitchingColorFixApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0A5001030C6F9EF10083F9F4 /* scfhelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = scfhelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5001120C6F9F250083F9F4 /* scfhelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scfhelper.m; sourceTree = "<group>"; };
+		0A5002140C6FC9D10083F9F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		0A5002740C6FD2EF0083F9F4 /* lock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lock.tiff; sourceTree = "<group>"; };
+		0A5002750C6FD2EF0083F9F4 /* unlock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = unlock.tiff; sourceTree = "<group>"; };
+		0A5002DB0C6FDD040083F9F4 /* SwitchingColorFixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingColorFixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5002DD0C6FDD040083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = English; path = "English.lproj/SwitchingColorFixApp-Info.plist"; sourceTree = "<group>"; };
+		0A50030A0C6FDDAC0083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		0A5003180C6FDE380083F9F4 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = SwitchingColorFixApp/AppController.m; sourceTree = "<group>"; };
+		0A5003190C6FDE380083F9F4 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = SwitchingColorFixApp/AppController.h; sourceTree = "<group>"; };
+		0A50031B0C6FDE3F0083F9F4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SwitchingColorFixApp/main.m; sourceTree = "<group>"; };
+		0A5003B20C6FE9860083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/About.rtf; sourceTree = "<group>"; };
+		0A50FFB20C6F7FF20083F9F4 /* LoginItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItems.h; sourceTree = "<group>"; };
+		0A50FFB30C6F7FF20083F9F4 /* LoginItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginItems.m; sourceTree = "<group>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* Switching Color Fix_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Switching Color Fix_Prefix.pch"; sourceTree = "<group>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* Switching Color Fix.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switching Color Fix.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* Switching_Color_FixPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switching_Color_FixPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* Switching_Color_FixPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switching_Color_FixPref.m; sourceTree = "<group>"; };
+		F506C040013D9D8001CA16C8 /* Switching_Color_FixPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Switching_Color_FixPref.tiff; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Switching_Color_FixPref.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5001010C6F9EF10083F9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5001390C6F9FF70083F9F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5002D90C6FDD040083F9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5003130C6FDE150083F9F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				0A5002150C6FC9D10083F9F4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Switching Color Fix */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Switching Color Fix";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A5004690C7001A70083F9F4 /* About.rtf */,
+				0A50036B0C6FDF780083F9F4 /* SwitchingColorFixApp-Info.plist */,
+				0A5003090C6FDDAC0083F9F4 /* MainMenu.nib */,
+				0A5002740C6FD2EF0083F9F4 /* lock.tiff */,
+				0A5002750C6FD2EF0083F9F4 /* unlock.tiff */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C040013D9D8001CA16C8 /* Switching_Color_FixPref.tiff */,
+				F506C042013D9D8C01CA16C8 /* Switching_Color_FixPref.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A5001120C6F9F250083F9F4 /* scfhelper.m */,
+				0A5003180C6FDE380083F9F4 /* AppController.m */,
+				0A5003190C6FDE380083F9F4 /* AppController.h */,
+				0A50FFB20C6F7FF20083F9F4 /* LoginItems.h */,
+				0A50FFB30C6F7FF20083F9F4 /* LoginItems.m */,
+				F506C03C013D9D7901CA16C8 /* Switching_Color_FixPref.h */,
+				F506C03D013D9D7901CA16C8 /* Switching_Color_FixPref.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5002140C6FC9D10083F9F4 /* Security.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* Switching Color Fix.prefPane */,
+				0A5001030C6F9EF10083F9F4 /* scfhelper */,
+				0A5002DB0C6FDD040083F9F4 /* SwitchingColorFixApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0A50031B0C6FDE3F0083F9F4 /* main.m */,
+				32DBCFA20370C41700C91783 /* Switching Color Fix_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5001020C6F9EF10083F9F4 /* scfhelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A50010D0C6F9F0C0083F9F4 /* Build configuration list for PBXNativeTarget "scfhelper" */;
+			buildPhases = (
+				0A5001000C6F9EF10083F9F4 /* Sources */,
+				0A5001010C6F9EF10083F9F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scfhelper;
+			productName = scfhelper;
+			productReference = 0A5001030C6F9EF10083F9F4 /* scfhelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		0A5002DA0C6FDD040083F9F4 /* SwitchingColorFixApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5002DE0C6FDD050083F9F4 /* Build configuration list for PBXNativeTarget "SwitchingColorFixApp" */;
+			buildPhases = (
+				0A5002D70C6FDD040083F9F4 /* Resources */,
+				0A5002D80C6FDD040083F9F4 /* Sources */,
+				0A5002D90C6FDD040083F9F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchingColorFixApp;
+			productName = SwitchingColorFixApp;
+			productReference = 0A5002DB0C6FDD040083F9F4 /* SwitchingColorFixApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D202CE80486D31800D8A456 /* Switching Color Fix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "Switching Color Fix" */;
+			buildPhases = (
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A5003370C6FDEEE0083F9F4 /* PBXTargetDependency */,
+				0A5003390C6FDEEE0083F9F4 /* PBXTargetDependency */,
+			);
+			name = "Switching Color Fix";
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = "Switching Color Fix";
+			productReference = 8D202CF80486D31800D8A456 /* Switching Color Fix.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "Switching Color Fix" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Switching Color Fix */;
+			projectDirPath = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* Switching Color Fix */,
+				0A5001020C6F9EF10083F9F4 /* scfhelper */,
+				0A5002DA0C6FDD040083F9F4 /* SwitchingColorFixApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5002D70C6FDD040083F9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50030F0C6FDDAC0083F9F4 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEE0486D31800D8A456 /* Switching_Color_FixPref.tiff in Resources */,
+				8D202CEF0486D31800D8A456 /* Switching_Color_FixPref.nib in Resources */,
+				0A50046A0C7001A70083F9F4 /* About.rtf in Resources */,
+				0A0866070C98EC07007D3101 /* scfhelper in Resources */,
+				0A0866080C98EC0A007D3101 /* SwitchingColorFixApp.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5001000C6F9EF10083F9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5001130C6F9F250083F9F4 /* scfhelper.m in Sources */,
+				0A5001490C6FA4FD0083F9F4 /* LoginItems.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5002D80C6FDD040083F9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50031A0C6FDE380083F9F4 /* AppController.m in Sources */,
+				0A50031C0C6FDE3F0083F9F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* Switching_Color_FixPref.m in Sources */,
+				0A50FFB50C6F7FF20083F9F4 /* LoginItems.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A5003370C6FDEEE0083F9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5001020C6F9EF10083F9F4 /* scfhelper */;
+			targetProxy = 0A5003360C6FDEEE0083F9F4 /* PBXContainerItemProxy */;
+		};
+		0A5003390C6FDEEE0083F9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5002DA0C6FDD040083F9F4 /* SwitchingColorFixApp */;
+			targetProxy = 0A5003380C6FDEEE0083F9F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A5003090C6FDDAC0083F9F4 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A50030A0C6FDDAC0083F9F4 /* English */,
+			);
+			name = MainMenu.nib;
+			path = SwitchingColorFixApp/English.lproj;
+			sourceTree = "<group>";
+		};
+		0A50036B0C6FDF780083F9F4 /* SwitchingColorFixApp-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5002DD0C6FDD040083F9F4 /* English */,
+			);
+			name = "SwitchingColorFixApp-Info.plist";
+			sourceTree = "<group>";
+		};
+		0A5004690C7001A70083F9F4 /* About.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5003B20C6FE9860083F9F4 /* English */,
+			);
+			name = About.rtf;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* Switching_Color_FixPref.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = Switching_Color_FixPref.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A50010E0C6F9F0C0083F9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = scfhelper;
+			};
+			name = Debug;
+		};
+		0A50010F0C6F9F0C0083F9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = scfhelper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0A5002DF0C6FDD050083F9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "English.lproj/SwitchingColorFixApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SwitchingColorFixApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A5002E00C6FDD050083F9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "English.lproj/SwitchingColorFixApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SwitchingColorFixApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switching Color Fix_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/PreferencePanes;
+				PRODUCT_NAME = "Switching Color Fix";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switching Color Fix_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "Switching Color Fix";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A50010D0C6F9F0C0083F9F4 /* Build configuration list for PBXNativeTarget "scfhelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A50010E0C6F9F0C0083F9F4 /* Debug */,
+				0A50010F0C6F9F0C0083F9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5002DE0C6FDD050083F9F4 /* Build configuration list for PBXNativeTarget "SwitchingColorFixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5002DF0C6FDD050083F9F4 /* Debug */,
+				0A5002E00C6FDD050083F9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "Switching Color Fix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "Switching Color Fix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

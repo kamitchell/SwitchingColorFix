@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = SFAuthorizationView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_delegate" = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {checkboxClicked = id; lockBoxClicked = id; }; 
+            CLASS = "Switching_Color_FixPref"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authView = SFAuthorizationView; 
+                theAboutBox = NSTextView; 
+                theCheckbox = NSButton; 
+                theLockButton = NSButton; 
+                theLockLabel = NSTextField; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }
+    ); 
+    IBVersion = 1; 
+}
