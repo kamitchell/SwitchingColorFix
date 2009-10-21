@@ -51,10 +51,8 @@
 		0A5001030C6F9EF10083F9F4 /* scfhelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = scfhelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5001120C6F9F250083F9F4 /* scfhelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scfhelper.m; sourceTree = "<group>"; };
 		0A5002140C6FC9D10083F9F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		0A5002740C6FD2EF0083F9F4 /* lock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lock.tiff; sourceTree = "<group>"; };
-		0A5002750C6FD2EF0083F9F4 /* unlock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = unlock.tiff; sourceTree = "<group>"; };
 		0A5002DB0C6FDD040083F9F4 /* SwitchingColorFixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingColorFixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5002DD0C6FDD040083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = English; path = "English.lproj/SwitchingColorFixApp-Info.plist"; sourceTree = "<group>"; };
+		0A5002DD0C6FDD040083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = English; path = "English.lproj/SwitchingColorFixApp-Info.plist"; sourceTree = "<group>"; };
 		0A50030A0C6FDDAC0083F9F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
 		0A5003180C6FDE380083F9F4 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = SwitchingColorFixApp/AppController.m; sourceTree = "<group>"; };
 		0A5003190C6FDE380083F9F4 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = SwitchingColorFixApp/AppController.h; sourceTree = "<group>"; };
@@ -130,8 +128,6 @@
 				0A5004690C7001A70083F9F4 /* About.rtf */,
 				0A50036B0C6FDF780083F9F4 /* SwitchingColorFixApp-Info.plist */,
 				0A5003090C6FDDAC0083F9F4 /* MainMenu.nib */,
-				0A5002740C6FD2EF0083F9F4 /* lock.tiff */,
-				0A5002750C6FD2EF0083F9F4 /* unlock.tiff */,
 				8D202CF70486D31800D8A456 /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
 				F506C040013D9D8001CA16C8 /* Switching_Color_FixPref.tiff */,
@@ -255,9 +251,11 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "Switching Color Fix" */;
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* Switching Color Fix */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D202CE80486D31800D8A456 /* Switching Color Fix */,
 				0A5001020C6F9EF10083F9F4 /* scfhelper */,
