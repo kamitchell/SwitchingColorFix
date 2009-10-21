@@ -10,6 +10,12 @@
 
 
 @implementation AppController
+- (void) fixColorSync
+{
+	NSTask *task = [NSTask launchedTaskWithLaunchPath:@"/System/Library/Frameworks/ApplicationServices.framework/Versions/Current/Frameworks/CoreGraphics.framework/Versions/Current/Resources/DMProxy" 
+											arguments:[NSArray array]];
+	[task waitUntilExit];
+}
 
 - (void) switchHandler:(NSNotification*) notification
 {
@@ -23,10 +29,7 @@
 	{
 		// Perform activation tasks here.
 		NSLog(@"Switching in");
-		NSTask *task = [NSTask launchedTaskWithLaunchPath:@"/System/Library/Frameworks/ApplicationServices.framework/Versions/Current/Frameworks/CoreGraphics.framework/Versions/Current/Resources/DMProxy" 
-												arguments:[NSArray array]];
-		[task waitUntilExit];
-        
+        [self performSelector: @selector(fixColorSync) withObject: self afterDelay: 0.5];
 	}
 }
 
