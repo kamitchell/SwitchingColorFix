@@ -3,7 +3,7 @@
 //  Switching Color Fix
 //
 //  Created by Kevin on 8/12/07.
-//  Copyright (c) 2007 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2007 Kevin A. Mitchell. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
